@@ -1,0 +1,294 @@
+body, td, th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#thecards {
+	font-size: 18px;
+	margin: 20px;
+}
+#thenumbers {
+	font-size: 18px;
+	color: #090;
+	margin: 20px;
+}
+.cardlist {
+	list-style-type: none;
+}
+#suits {
+	margin: 20px;
+}
+#magic {
+	font-size: 18px;
+	color: #999;
+}
+#clubsList {
+}
+#heartsList {
+}
+#spadesList {
+}
+#diamondsList {
+}
+body.fullscreen #home .info {
+	display: none;
+}
+#about {
+	padding: 100px 10px 40px;
+	text-shadow: rgba(255, 255, 255, 0.3) 0px -1px 0;
+	font-size: 13px;
+	text-align: center;
+	background: #161618;
+}
+#about p {
+	margin-bottom: 8px;
+}
+#about a {
+	color: #FFF !important;font-weight: bold;
+	text-decoration: none;
+}
+#content {
+	color: #666;
+	text-decoration: none;
+	background-color: #FFF !important;margin: 10px;
+	padding: 10px;
+	font-size: 16px;
+	line-height: 22px;
+}
+#content p {
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+.liststyle {
+	padding: 0;
+	margin: 0;
+	background-image: none;
+}
+.liststyle li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-size: 12px;
+	font-weight: normal;
+	background-image: none;
+}
+.liststyle li a:link, .liststyle li a:visited {
+	display: block;
+	border: 1px solid #999;
+	padding: 1px;
+	height: 65px;
+	width: 55px;
+	float: left;
+	margin: 5px;
+	color: #FFF !important;text-decoration: none;
+	border: 1px solid #FFF !important;background-image: none;
+	background-color: #666;
+}
+.liststyle li a:active, .liststyle li a:focus {
+	background-color: #666;
+}
+#shownumber {
+	padding: 0;
+	margin: 20;
+	background-image: none;
+	font-size: 36px;
+	color: #FFF !important;text-align: center;
+}
+.nextbuttons {
+	clear: both;
+}
+.gridstyle {
+	display: block;
+	border: 1px solid #999;
+	padding: 1px;
+	height: 65px;
+	width: 55px;
+	float: left;
+	margin: 3px;
+	color: #FFF !important;text-decoration: none;
+	border: 1px solid #FFF !important;background-image: none;
+	background-color: #666;
+}
+.selected {
+	background-color: #0C0;
+}
+#largecard {
+	text-align: center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#result {
+	text-align: center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.numberdisplay {
+	padding: 0px;
+	margin: 0px;
+	font-size: 75px;
+	border: 1px solid #F00;
+	display: inline;
+	float: right;
+}
+.carddisplay {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+h2 {
+	color: #333;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 0px;
+	border: 1px solid #FFF !important;float: right;
+	font-size: 14px;
+	width: 217px;
+	background-color: #CCC;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#pie {
+	text-align: center;
+}
+.result_text {
+	font-size: 13px;
+	padding: 0px;
+	margin: 10px;
+	/*margin-top:8px;
+	margin-bottom:8px;*/
+
+
+}
+#chart {
+	text-align: center;
+	/*	border: solid 1px red;
+*/	margin-top: 215px;
+}
+#spryFinalDisplay {
+	left: 0;
+	position: relative;
+	right: 0;
+	width: 100%;
+	/*	border: solid 1px green;
+*/}
+#final_choice_display {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top:-5px;
+/*	top: 35px;
+*/	/*width: 130px;
+	height: 70px;*/
+	border: solid 1px #99FF66;
+	text-align: center;	
+	
+}
+#result_number {
+	position: absolute;
+	/*right: 0px;*/
+	font-size: 70px;
+	top: -14px;
+	margin: 0px;
+	padding: 0px;
+/*	float:right;*/
+	border: solid 1px red;
+	display:inline;
+}
+#result_card {
+	/*position: absolute;*/
+	top: 0px;
+/*	float: left;*/
+	border: solid 1px red;
+	height: 66px;
+	padding-top: 15px;
+	display:inline;
+	}
+#info {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 82px;
+	/*width: 350px;*/
+/*	border: solid 1px #99FF66;
+*/	padding: 0px;
+	background-color: #333;
+	border: solid 1px black;
+}
+
+.largeNumber {
+	font-size: 73px;
+	font-weight: bold;
+	}
+
+#selectionInfo {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 0px;
+	/*width: 350px;*/
+/*	border: solid 1px #99FF66;
+*/	padding: 0px;
+	background-color: #333;
+	border: solid 1px black;
+	height:81px;
+}
+
+.uc_link {
+	padding: 7px;
+	font-size: 10px;
+	text-align: center;	
+}
+
+.uc_link a:link {
+	color: #FFF !important;text-decoration: none;
+}
+.uc_link a:visited {
+	text-decoration: none;
+	color: #FFF !important;}
+.uc_link a:hover {
+	text-decoration: none;
+	color: #FFF !important;}
+.uc_link a:active {
+	text-decoration: none;
+	color: #FFF !important;}
+
+
+
+
+.ui-bar-a a.ui-link:active {
+color: #FFF !important;}
+jquery.css:2 .ui-bar-a a.ui-link:hover {
+color: #FFF !important;}
+jquery.css:2 .ui-bar-a a.ui-link:visited {
+color: #FFF !important;}
+jquery.css:2 .ui-body-a .ui-link:active {
+color: #FFF !important;}
+jquery.css:2 .ui-body-a .ui-link:hover {
+color: #FFF !important;}
+jquery.css:2 .ui-body-a .ui-link:visited {
+color: #FFF !important;}
+
+#stebbinsList {
+	list-style-type: none;
+}
+
+<!-- Stops flicker on Android-->
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}
+.ui-mobile-viewport-transitioning, .ui-mobile-viewport-transitioning .ui-page {
+        overflow: visible;
+    }
