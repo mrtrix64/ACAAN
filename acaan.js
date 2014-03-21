@@ -3,7 +3,7 @@ var theNumber = 0;
 var thetarget = 0;
 
 function getcard (card) {
-	navigator.notification.vibrate(5000);
+	
 	
 	//Short name of card is passed in via the onclick i.e 3C
 	//alert ("Value passed in is "+card);
@@ -20,7 +20,7 @@ function getcard (card) {
 }
 
 function acaanCalc() {
-	navigator.notification.vibrate(2500);
+	
 	var input = (document.getElementById('slider').value);
 		var theNumber = input;
 		thenumbers.setCurrentRow(theNumber-1);
@@ -123,5 +123,7 @@ var oldVal = $("#toggle-me").bind("change", function(){
         console.log("val change to " + oldVal);
     }
  }).val();
+ 
+ 
  
 
